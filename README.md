@@ -22,6 +22,22 @@ QueryPilot MCP solves this with a **six-layer defense-in-depth model**, treating
 
 ---
 
+## 📚 Deep Engineering Documentation Suite
+
+For comprehensive technical specifications, threat analyses, benchmarks, and architectural designs:
+
+| Document | Focus & Contents | Key Highlights |
+|---|---|---|
+| **[Architecture & Protocol Internals](docs/ARCHITECTURE.md)** | Subsystems, process topologies, IPC framing, FastMCP routing. | Mermaid flowcharts, sequence diagrams, latency budgets. |
+| **[Security Deep Dive & Threat Model](docs/SECURITY_DEEP_DIVE.md)** | 6-layer defense breakdown, STRIDE matrix, AST vs Regex analysis. | 24+ blocked functions, CTE mutation attack analysis. |
+| **[Performance Benchmarks & Metrics](docs/BENCHMARKS_AND_METRICS.md)** | Profiling benchmarks, $p50/p90/p95/p99$ percentiles, memory RSS. | $16.8\text{ ms } p50$, cursor truncation, stress tests. |
+| **[Database Schema & Models](docs/DATABASE_SCHEMA_AND_MODELS.md)** | Relational models, entity schemas, constraints, indexing strategies. | Mermaid ER diagram, role hardening, session parameters. |
+| **[Tools Reference & Protocol](docs/TOOLS_REFERENCE.md)** | Comprehensive API documentation for all 5 exposed tools. | JSON-RPC payloads, parameter boundaries, error outputs. |
+| **[Testing & Verification Suite](docs/TESTING_AND_VERIFICATION.md)** | 72 test cases catalog, unit/integration splits, CI workflows. | 94% guard coverage, 40+ attack payloads catalog. |
+| **[Engineering Log & Interview Guide](docs/INTERVIEW_AND_ENGINEERING_LOG.md)** | Design trade-offs, retrospective, resume bullets, technical Q&A. | 15+ deep interview questions, quantified impact metrics. |
+
+---
+
 ## 2. Tools Exposed
 
 QueryPilot exposes 5 high-precision tools designed specifically for LLM schema exploration and analytical querying:
